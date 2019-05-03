@@ -1,6 +1,6 @@
 import copy # for deepcopy
 import itertools # for getting all permutations
-
+import time
 def findNumberComplete(lst):
     if len(lst) == 0:
         return 0
@@ -89,7 +89,7 @@ def solveBasic(lst): # list is sorted based of begin time
     last_begin_time = lst[len(lst) - 1][0]
     to_process = [] # lst that will store all the elements that we need to proecess
 
-    while time < last_begin_time:
+    while time < last_begin_time and len(to_process) != 0:
         if previous_processed is None:
             previous_processed = time
             while lst[0][0] == time:
@@ -98,21 +98,24 @@ def solveBasic(lst): # list is sorted based of begin time
             while lst[0][0] <= time and lst[0][0] >= previous_processed and lst[0][1] > time:
                 to_process.append(lst.pop(0))
             previous_processed = time
-            
-        processedItem = solveAlgo1(to_process) # returns the processed item
-        number_processed += 1
-        # update time
-        time += processedItem[2]
-        # removing all in processedItem that has time > deadline
-        temp = []
-        for i in to_process:
-            if time < i[1]: # remove if already past deadline (or add if not here)
-                temp.append(i)
-        to_process = temp
+        
+        if len(to_process) == 0:
+            break
+        else:
+            processedItem = solveAlgo4(to_process, time) # returns the processed item
+            number_processed += 1
+            # update time
+            time += processedItem[2]
+            # removing all in processedItem that has time > deadline
+            temp = []
+            for i in to_process:
+                if time < i[1]: # remove if already past deadline (or add if not here)
+                    temp.append(i)
+            to_process = temp
 
     # now we must finish processeing the to_process
     while len(to_process) != 0:
-        processedItem = solveAlgo1(to_process)
+        processedItem = solveAlgo3(to_process, time)
         number_processed += 1
         # update time
         time += processedItem[2]
@@ -139,9 +142,12 @@ def main(): # this deals with all the preprocessing required to run code.
     # Every time we go through a loop we can have a iterator that
     # keeps track of "time" and can be enqued when begin time is met
     allProcesses = sorted(allProcesses, key = lambda x: x[0])
-
-    ans = solveNaieve(copy.deepcopy(allProcesses))
-    # ans = solveBasic(copy.deepcopy(allProcesses))
-    print("The Best set of jobs has number {}".format(ans))
+    
+    s = time.time()
+    ans = solveBasic(copy.deepcopy(allProcesses))
+    #ans = solveNaieve(copy.deepcopy(allProcesses))
+    e = time.time()
+    #ans = solveBasic(copy.deepcopy(allProcesses))
+    print("time taken is {}".format(e - s))
 
 main()
