@@ -73,6 +73,7 @@ def solveAlgo4(to_process, time): # O(nlogn))
             if time + cur[2] <= cur[1]:
                 time += cur[2]
                 count += 1
+                end += 1
             else:
                 break
         if count < cnt:
