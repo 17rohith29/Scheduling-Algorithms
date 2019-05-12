@@ -1,0 +1,96 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Albagli-Kim et~al.()Albagli-Kim, Schieber, Shachnai, and
+  Tamir]{doi:10.1137/1.9781611974317.11}
+S.~Albagli-Kim, B.~Schieber, H.~Shachnai, and T.~Tamir.
+\newblock \emph{Real-Time k-bounded Preemptive Scheduling}, pages 127--137.
+\newblock \doi{10.1137/1.9781611974317.11}.
+\newblock URL \url{https://epubs.siam.org/doi/abs/10.1137/1.9781611974317.11}.
+
+\bibitem[Baptiste()]{doi:10.1002/(SICI)1099-1425(199911/12)2:6<245::AID-JOS28>3.0.CO;2-5}
+P.~Baptiste.
+\newblock Polynomial time algorithms for minimizing the weighted number of late
+  jobs on a single machine with equal processing times.
+\newblock \emph{Journal of Scheduling}, 2\penalty0 (6):\penalty0 245--252.
+\newblock
+  \doi{10.1002/(SICI)1099-1425(199911/12)2:6<245::AID-JOS28>3.0.CO;2-5}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291099-1425%28199911/12%292%3A6%3C245%3A%3AAID-JOS28%3E3.0.CO%3B2-5}.
+
+\bibitem[Baptiste et~al.(1998)Baptiste, Le~Pape, and
+  Peridy]{10.1007/3-540-49481-2_8}
+P.~Baptiste, C.~Le~Pape, and L.~Peridy.
+\newblock Global constraints for partial csps: A case-study of resource and due
+  date constraints.
+\newblock In M.~Maher and J.-F. Puget, editors, \emph{Principles and Practice
+  of Constraint Programming --- CP98}, pages 87--101, Berlin, Heidelberg, 1998.
+  Springer Berlin Heidelberg.
+\newblock ISBN 978-3-540-49481-2.
+
+\bibitem[Baptiste et~al.(2002)Baptiste, Chrobak, D{\"{u}}rr, Jawor, and
+  Vakhania]{DBLP:journals/corr/cs-DS-0209033}
+P.~Baptiste, M.~Chrobak, C.~D{\"{u}}rr, W.~Jawor, and N.~Vakhania.
+\newblock Preemptive scheduling of equal-length jobs to maximize weighted
+  throughput.
+\newblock \emph{CoRR}, cs.DS/0209033, 2002.
+\newblock URL \url{http://arxiv.org/abs/cs.DS/0209033}.
+
+\bibitem[Dauzère-Pérès(1995)]{article}
+S.~Dauzère-Pérès.
+\newblock Minimizing late jobs in the general one machine scheduling problem.
+\newblock \emph{European Journal of Operational Research}, 81:\penalty0
+  134--142, 02 1995.
+\newblock \doi{10.1016/0377-2217(94)00116-T}.
+
+\bibitem[Dourado et~al.(2009)Dourado, Rodrigues, and Szwarcfiter]{Dourado2009}
+M.~C. Dourado, R.~d.~F. Rodrigues, and J.~L. Szwarcfiter.
+\newblock Scheduling unit time jobs with integer release dates to minimize the
+  weighted number of tardy jobs.
+\newblock \emph{Annals of Operations Research}, 169\penalty0 (1):\penalty0
+  81--91, Jul 2009.
+\newblock ISSN 1572-9338.
+\newblock \doi{10.1007/s10479-008-0479-y}.
+\newblock URL \url{https://doi.org/10.1007/s10479-008-0479-y}.
+
+\bibitem[Kise et~al.(1978)Kise, Ibaraki, and
+  Mine]{Kise:1978:SCO:2775614.2775622}
+H.~Kise, T.~Ibaraki, and H.~Mine.
+\newblock A solvable case of the one-machine scheduling problem with ready and
+  due times.
+\newblock \emph{Oper. Res.}, 26\penalty0 (1):\penalty0 121--126, Feb. 1978.
+\newblock ISSN 0030-364X.
+\newblock \doi{10.1287/opre.26.1.121}.
+\newblock URL \url{http://dx.doi.org/10.1287/opre.26.1.121}.
+
+\bibitem[Lawler(1990)]{Lawler1990}
+E.~L. Lawler.
+\newblock A dynamic programming algorithm for preemptive scheduling of a single
+  machine to minimize the number of late jobs.
+\newblock \emph{Annals of Operations Research}, 26\penalty0 (1):\penalty0
+  125--133, Dec 1990.
+\newblock ISSN 1572-9338.
+\newblock \doi{10.1007/BF02248588}.
+\newblock URL \url{https://doi.org/10.1007/BF02248588}.
+
+\bibitem[Moore(1968)]{doi:10.1287/mnsc.15.1.102}
+J.~M. Moore.
+\newblock An n job, one machine sequencing algorithm for minimizing the number
+  of late jobs.
+\newblock \emph{Management Science}, 15\penalty0 (1):\penalty0 102--109, 1968.
+\newblock \doi{10.1287/mnsc.15.1.102}.
+\newblock URL \url{https://doi.org/10.1287/mnsc.15.1.102}.
+
+\bibitem[{Yun Wang} and {Saksena}(1999)]{811269}
+{Yun Wang} and M.~{Saksena}.
+\newblock Scheduling fixed-priority tasks with preemption threshold.
+\newblock In \emph{Proceedings Sixth International Conference on Real-Time
+  Computing Systems and Applications. RTCSA'99 (Cat. No.PR00306)}, pages
+  328--335, Dec 1999.
+\newblock \doi{10.1109/RTCSA.1999.811269}.
+
+\end{thebibliography}
