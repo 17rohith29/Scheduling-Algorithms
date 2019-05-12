@@ -8,4 +8,5 @@ We will also go over other similar research paper in the literature review (Prio
 <br>
 
 ## Below Are two graphs that represent the real world time of the three algorithms
-<img src = "Plot\ Images/ImprovedVsNaive.png">
+<img src = "Plot Images/ImprovedVsNaive.png">
+<img src = "Plot Images/ImprovedVsOptimal.png">
