@@ -7,6 +7,6 @@ But in short, we find that the problem can be solved optimally in O(nlogn) time.
 We will also go over other similar research paper in the literature review (Prior Research on Related Algorithms).
 <br>
 
-## Below Are two graphs that represent the real world time of the three algorithms
+## Below Are two graphs that represent the real world times of the three main algorithms
 <img src = "Plot Images/ImprovedVsNaive.png">
 <img src = "Plot Images/ImprovedVsOptimal.png">
